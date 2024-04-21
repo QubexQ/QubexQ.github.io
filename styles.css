@@ -1,0 +1,158 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url('galaxy.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-color: aqua;
+}
+
+.logo {
+    height: 48px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 53px;
+}
+
+.navbar {
+    padding: 10px 0;
+    padding-top: 30px;
+}
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+  .title {
+    font-size: 50px;
+    margin: 20px 0;
+    font-family:  'Playfair-display';
+    padding-top: 50px;
+}
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+  .start-button {
+    background-color: #f9df74;
+    color: black;
+    padding: 6px 31px;
+    border: none;
+    border-radius: 26px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-bottom: 70px;
+    display: inline-block;
+    text-decoration: unset;
+}
+/* Content Styles */
+.content section {
+    color: #333;
+    text-align: center;
+}
+
+/* About, Vision, Mission Sections */
+.about {
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    padding: 40px;
+    background-image: 'bgmain.jpg';
+    
+} 
+.vision, .mission {
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding: 20px;
+}
+
+.info-2{
+    max-width: 450px;
+    display: inline-flex;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center
+}
+
+.info{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color: #f9df74;
+}
+
+/* Prices Section */
+.prices {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.plan {
+    display: inline-block;
+    margin: 14px;
+    border: 3px solid #ddd;
+    padding: 24px;
+    width: 200px;
+    filter: brightness(100%);
+}
+
+.plan:hover{
+    filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.plan h3 {
+    background-color: #eee;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+
+/* Footer Styles */
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #731dd8;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    
+}

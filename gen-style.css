@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 83%;
+    background-color: #731dd8;
+}
+
+.questionnaire {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-info h2, .course-info p {
+    color: #731dd8;
+}
+
+.details {
+    color: white;
+    background-color: #731dd8;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.enter {
+    background-color: #731dd8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #731dd8;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    
+}
+
+.navbar {
+    padding: 10px 0;
+    padding-top: 30px;
+    background-color: #731dd8;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 30px;
+}

@@ -1,0 +1,148 @@
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #731dd8;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    
+}
+
+.navbar {
+    padding: 10px 0;
+    padding-top: 30px;
+    background-color: #731dd8;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#731dd8;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.scorecard {
+    background-color: #f9df74;
+    color: white;
+    padding: 20px;
+    width: 60vw;
+    text-align: center;
+    margin: 0px 20vw;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.scorecard h1 {
+    margin-bottom: 10px;
+    margin-left: 23vw;
+}
+
+.course-name {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-left: 23vw;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.score {
+    margin-bottom: 5px;
+}
+
+.percentage {
+    margin-bottom: 20px;
+}
+
+.improve-skill {
+    background-color: #731dd8;
+    color: #e9ebf8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Star graphics */
+.scorecard::before,
+.scorecard::after {
+    content: '';
+    position: absolute;
+    background: url('star.png') no-repeat center;
+    background-size: contain;
+}
+
+.scorecard::before {
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.scorecard::after {
+    bottom: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+}
+h1, p{
+    background-color: #731dd8;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 10px;
+
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-right: 2vw;
+}
+.Submit {
+    margin: 0 20px;
+    background-color: #731dd8;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.buttons {
+    margin-left: 2vw;
+}
