@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Generator</title>
+
+</head>
+<body>
+    <div id="question"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@openai/openai-js@0.3.0/dist/openai.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", async function() {
+            try {
+                const openai = new OpenAI('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'); // Replace 'YOUR_API_KEY' with your actual API key
+                
+                const prompt = "Generate a question related to any topic."; // Prompt for generating the question
+                
+                const response = await openai.complete({
+                    engine: 'text-davinci-003', // Choose the model
+                    prompt,
+                    max_tokens: 50 // Adjust as needed
+                });
+
+                console.log(response); // Log the response to see its structure
+
+                const generatedQuestion = response.data.choices[0].text.trim();
+                document.getElementById("question").innerText = generatedQuestion;
+            } catch (error) {
+                console.error('Error generating question:', error);
+            }
+        });
+    </script>
+</body>
+</html>

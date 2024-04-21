@@ -1,0 +1,76 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9df74; /* Purple background */
+}
+
+.navbar {
+    padding: 10px 0;
+    padding-top: 30px;
+    text-align: center;
+}
+.navbar a {
+    color: #731dd8;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.login, .signin {
+    background-color: #731dd8;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+}
+
+.login h2, .signin h2 {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.submit {
+    background-color: white; /* Green */
+    color: #731dd8;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    display: inline-flex;
+
+}
+
+.submit h3{
+    margin: 2px;
+}
+
+.submit a {
+    text-decoration: unset;
+}
+:-webkit-any-link{
+    text-decoration: none;
+}
+.logo {
+    height: 48px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 53px;
+}

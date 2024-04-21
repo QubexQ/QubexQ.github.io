@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #731dd8;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.account-info input {
+    margin: 10px 0;
+}
+
+.navbar {
+    padding: 10px 0;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.account-section, .progress-section, .search-section {
+    background-color: #f0f0f7;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+.account-section h2, .progress-section h2 {
+    color: #4a4a4a;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.progress {
+    background-color: #f9df74;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+.course-progress {
+    margin: 20px;
+}
+
+.search-section input {
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+.course {
+    background-color: #f9df74;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    display:inline-flex;
+    list-style: none;
+    width: 100%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #731dd8;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+button {
+    border-radius: 15px;
+}
+
+.info {
+    margin: 20px;
+}
+.logo {
+    height: 48px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 53px;
+}
